@@ -1,4 +1,4 @@
-
+# Demo : https://wander-ai-six.vercel.app/
 # 🌍 WanderAI - Web-based AI Travel Planner
 
 WanderAI is an AI-driven web-based travel planner that helps users plan their trips effortlessly. Users can register using Google authentication (OAuth), and once logged in, they can view their previous trip details stored in Firebase. With inputs like location, number of days, budget, and number of travelers, WanderAI generates trip suggestions including estimated costs, hotel recommendations, and a curated list of places to visit.
