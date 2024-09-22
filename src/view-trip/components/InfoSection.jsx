@@ -55,7 +55,6 @@ function InfoSection ( { trip } )
 
                     </div>
                 </div>
-                <Button className=''><IoIosSend className="text-xl" /></Button>
 
             </div>
         </div>
