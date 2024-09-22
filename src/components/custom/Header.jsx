@@ -35,7 +35,7 @@ function Header ()
         } ).then( ( res ) =>
         {
             // 2. Save the user profile in the local storage
-            local.setItem( 'user', JSON.stringify( res.data ) )
+            localStorage.setItem( 'user', JSON.stringify( res.data ) )
             setOpenDailog( false )
             window.location.reload()
         } )
