@@ -10,7 +10,7 @@ function Footer ()
                     <img src="linkedin.svg" className='transition-all size-7 lg:size-9 hover:scale-110 ' alt="linkedin" />
                 </a>
 
-                <a href="https://github.com/errors4o4" target="_blank">
+                <a href="https://github.com/AmrutRaote" target="_blank">
                     <img src="github-mark.svg" className='transition-all size-7 lg:size-8 hover:scale-110 ' alt="github" />
                 </a>
             </div>
