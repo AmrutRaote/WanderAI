@@ -6,11 +6,11 @@ function Footer ()
         <div className='flex flex-col items-center justify-center gap-3 mx-32 mt-20 mb-5 md:gap-5 md:flex-row'>
 
             <div className='flex flex-row gap-3' >
-                <a href="https://www.linkedin.com/in/amrutraote/" target="_blank">
+                <a href="https://www.linkedin.com/in/amrutraote/" target="_blank" rel="noopener noreferrer">
                     <img src="linkedin.svg" className='transition-all size-7 lg:size-9 hover:scale-110 ' alt="linkedin" />
                 </a>
 
-                <a href="https://github.com/AmrutRaote" target="_blank">
+                <a href="https://github.com/AmrutRaote" target="_blank" rel="noopener noreferrer">
                     <img src="github-mark.svg" className='transition-all size-7 lg:size-8 hover:scale-110 ' alt="github" />
                 </a>
             </div>
