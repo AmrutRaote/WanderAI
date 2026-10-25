@@ -37,7 +37,6 @@ function Viewtrip ()
         else
         {
             setTrip( docSnap.data() )
-            console.log( "DOc:", docSnap.data() )
         }
     }
 
