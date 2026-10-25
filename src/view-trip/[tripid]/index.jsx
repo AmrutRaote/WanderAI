@@ -31,7 +31,6 @@ function Viewtrip ()
 
         if ( !docSnap.exists() )
         {
-            console.log( "no data found!" )
             toast( "No trip found" )
         }
         else
