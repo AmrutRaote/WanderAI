@@ -37,7 +37,6 @@ function UserTripCard ( { trip } )
     useEffect( () =>
     {
         trip && GetPlacePhoto()
-        console.log( photoUrl )
     }, [ trip ] )
     ////////////////////////////////////////////////////////////////////////
 
