@@ -120,7 +120,6 @@ function CreateTrip ()
             // 1. set the database details
             const docID = Date.now().toString()
             const docref = doc( db, "AI-Trips", docID )
-            console.log( TripData )
             if ( !TripData )
             {
                 setLoading( false )
@@ -165,7 +164,6 @@ function CreateTrip ()
             }
         } ).then( ( res ) =>
         {
-            console.log( res )
             localStorage.setItem( 'user', JSON.stringify( res.data ) )
             setOpenDailog( false )
             OnGenerateTrip()
