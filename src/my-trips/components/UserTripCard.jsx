@@ -38,20 +38,6 @@ function UserTripCard ( { trip } )
     {
         trip && GetPlacePhoto()
     }, [ trip ] )
-    ////////////////////////////////////////////////////////////////////////
-
-
-    // const deleteContacts = async ( id ) =>    // delete contact from firebase based on the id
-    // {
-    //     try
-    //     {
-    //         await deleteDoc( doc( db, "AI-Trips", id ) );   // COLLECTION NAME"AI-Trips" and ID
-
-    //     } catch ( error )
-    //     {
-    //         console.log( error );
-    //     }
-    // };
 
     return (
         <Link to={ '/view-trip/' + trip?.id }>
