@@ -8,8 +8,8 @@ WanderAI is an AI-driven web-based travel planner that helps users plan their tr
 
 - User registration via Google OAuth
 - Storing user trip details in Firebase
-- AI-assisted trip planning.
-- AI-generated trip suggestions.
+- AI-assisted trip planning
+- AI-generated trip suggestions
 - **Google Places Autocomplete** integration for trip location input (Ensure that the following Google Cloud APIs are enabled):
   - **Places API**
   - **Geocoding API**
